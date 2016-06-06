@@ -1,0 +1,8 @@
+setleds -D +caps < /dev/console
+setleds -D -caps < /dev/console
+
+echo 1 > /sys/class/leds/ath9k-phy0/brightness
+echo 0 > /sys/class/leds/ath9k-phy0/brightness
+
+echo 1 > /sys/class/backlight/intel_backlight/brightness 
+echo 0 > /sys/class/backlight/intel_backlight/brightness 

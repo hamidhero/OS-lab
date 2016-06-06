@@ -1,0 +1,15 @@
+make
+
+insmod mydev.ko
+
+cat /proc/devices ----> finding major no
+
+mknod /dev/eadriver c 250 0
+
+echo "salam" > /dev/eadriver
+
+cat /dev/eadriver
+
+
+
+

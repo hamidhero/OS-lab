@@ -1,0 +1,1 @@
+cmd_/home/hamid/Desktop/driver/mydev.ko := ld -r -m elf_x86_64 -T /home/hamid/kernel/linux-3.14.54/scripts/module-common.lds --build-id  -o /home/hamid/Desktop/driver/mydev.ko /home/hamid/Desktop/driver/mydev.o /home/hamid/Desktop/driver/mydev.mod.o
